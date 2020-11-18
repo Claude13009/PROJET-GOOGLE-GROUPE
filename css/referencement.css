@@ -1,0 +1,161 @@
+/* ---------------------
+DIRECTIVES GENERALES
+------------------------ */
+@font-face {
+    font-family: 'product_sansbold';
+    src: url('./fonts/kit-bold/product_sans_bold-webfont.ttf') format('ttf'),
+         url('./fonts/kit-bold/product_sans_bold-webfont.woff2') format('woff2'),
+         url('./fonts/kit-bold/product_sans_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'product_sansregular';
+    src: url('./fonts/kit-regular/product_sans_regular-webfont.woff2') format('woff2'), 
+         url('./fonts/kit-regular/product_sans_regular-webfont.woff2') format('woff2'),
+         url('./fonts/kit-regular/product_sans_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#main_wrap
+{
+    font-family: 'Product Sans', sans-serif;
+    color: #565050;
+}
+
+strong {
+    color: #565050;
+    font-size: 1.2em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+
+/* ---------------------
+DIRECTIVES REFERENCEMENT
+------------------------ */
+
+/* section */
+section {
+    font-family: 'Product Sans' , sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin: 15%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #565050;
+}
+/* article */
+article {
+    text-align: justify;
+    width: 45%;
+}
+#titre_article{
+    display: flex;
+    height: 60px;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3em;
+}
+#titre_article img {
+    block-size: 60%;
+   }
+
+h2 {
+    font-size: 1.2em;
+}
+
+#referencement_aside {
+    margin-top: 15px;
+    border-radius: 10px;
+    height: 320px;
+    width: 30%;
+    margin-right: 2%;
+    background: #FFF9F9;
+    border: 1px solid #565050;
+}
+#referencement_aside img {
+    border-radius: 10px 10px 0 0;
+    block-size: 25%;
+    width: 100%;
+    border-bottom: 1px solid #565050;
+}
+
+#referencement_aside h1{
+    padding-left: 20px;
+    margin: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 60%;
+    text-align: left;
+}
+
+#referencement_aside ul {
+    margin: 5px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+#referencement_aside li {
+    padding: 6px;
+}
+
+/* ---------------------
+FIN REFERENCEMENT
+------------------------ */
+
+/* ---------------------
+Directives pour le FOOTER
+------------------------ */
+footer {
+    padding-top: 16px;
+    border-top: grey 2px solid;
+    width: 100%;
+    background: #FFFFFF;
+    bottom: 0;
+    font-family: 'Product Sans', sans-serif;
+}
+
+footer nav {
+    margin: auto;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+footer nav a {
+    height: 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #565050;
+}
+
+footer nav a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}

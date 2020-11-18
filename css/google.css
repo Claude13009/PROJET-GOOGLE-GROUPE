@@ -1,0 +1,284 @@
+
+
+/* ---------------------
+DIRECTIVES GENERALES
+------------------------ */
+@font-face {
+    font-family: 'product_sansbold';
+    src: url('./fonts/kit-bold/product_sans_bold-webfont.ttf') format('ttf'),
+         url('./fonts/kit-bold/product_sans_bold-webfont.woff2') format('woff2'),
+         url('./fonts/kit-bold/product_sans_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'product_sansregular';
+    src: url('./fonts/kit-regular/product_sans_regular-webfont.woff2') format('woff2'), 
+         url('./fonts/kit-regular/product_sans_regular-webfont.woff2') format('woff2'),
+         url('./fonts/kit-regular/product_sans_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#main_wrap
+{
+    font-family: 'product_sansregular', sans-serif;
+    color: #565050;
+}
+
+strong {
+    color: #565050;
+    font-size: 1.2em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+
+
+/* ---------------------
+DIRECTIVES PAGE ACCUEIL
+------------------------ */
+
+#banniere_accueil {
+    position: relative;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    background: url("../img/banniere_accueil.png") no-repeat;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#banniere_accueil h1 {
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    top: 75px;
+    vertical-align: middle;
+}
+
+.categorie_accueil {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 200px; 
+    text-align: justify;
+    padding: 50px;
+    border-bottom: 1px #565050 solid;
+}
+
+#categorie_accueil_confidentialite {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 200px; 
+    text-align: justify;
+    padding: 50px;
+}
+.categorie_accueil img {
+    size: 70%;
+}
+.onglets_accueil {
+    width: 40%;
+}
+
+#wrap_accueil a {
+    text-decoration: none;
+    color: #4285F4;
+    font-weight: bold;
+}
+
+
+/* ---------------------
+FIN DIRECTIVES PAGE ACCUEIL
+------------------------ */
+
+
+/* ---------------------
+DIRECTIVES FORMULAIRE DE CONTACT
+------------------------ */
+
+#wrap_contact {
+    background: url(../img/google_mail.png) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover; 
+    min-height: 100%;
+    position: relative;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+    font-family: 'product_sansregular', sans-serif;
+    
+}
+
+#contact_infos {
+    padding: 8px;
+    height: 100px;
+    width: 300px;
+    border: 1px solid #565050;
+    color: #DCE6DF;
+    font-weight: bold;
+    border-radius: 10px;
+    background: rgb(130,130,130,0.9);
+    position: relative;
+    top: 25%;
+    left: 26.5%;
+}
+
+
+#contact_form textarea {
+    padding: 8px;
+    height: 250px;
+    width: 480px;
+    border: 1px solid #565050;
+    color: #DCE6DF;
+    font-weight: bold;
+    border-radius: 10px;
+    background: rgb(128,128,128,0.9);
+    position: absolute;
+    top: 41.5%;
+    left: 46.5%;
+}
+
+#submit {
+    position: relative;
+    bottom: -412px;
+    left: 78.2%;
+    font-weight: bold;
+    border-radius: 5px;
+    background: rgb(128,128,128,0.9);
+    padding: 5px;
+    cursor: pointer;
+}
+
+#message_remerciement {
+    border: 1px solid #565050;
+    background: rgb(128,128,128,0.9);
+    padding: 8px;
+    font-weight: bold;
+    position: relative;
+    left: 26.5%;
+    top: 53.6%;
+    width: 296px;
+    color: #DCE6DF;
+    border-radius: 10px;
+    text-decoration: underline;
+    
+}
+
+
+
+/* ---------------------
+DIRECTIVES INFOS CONSOMMATEUR & CONFIDENTIALITE
+------------------------ */
+
+.wrap_consommateur {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tableau_infos_consommateur {
+    width: 60%;
+    border: solid 1px #565050;
+    border-radius: 10px 10px 0 0;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.texte_consommateurs {
+    padding: 50px;
+}
+
+.texte_consommateurs ul {
+    padding-left: 18px;
+}
+
+.onglet_satisfaction {
+    height: 60px;
+    width: 60%;
+    border: solid 1px #565050;
+    border-radius: 0 0 10px 10px;
+    border-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.onglet_satisfaction p {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.curseur {
+    display: flex;
+    width: 550px;
+    justify-content: space-around;
+}
+
+input[type="range"] { /* Directives pour afficher les valeurs cachées du curseur */
+    position: relative;
+    margin-left: 1em;
+}
+input[type="range"]:after,
+input[type="range"]:before {
+    position: absolute;
+    top: 1em;
+    color: #aaa;
+}
+input[type="range"]:before {
+    left:0em;
+    content: attr(min);
+}
+input[type="range"]:after {
+    right: 0em;
+    content: attr(max); /* Fin des directives pour les valeurs cachées du curseur */
+}
+
+.images_info {
+    padding: 50px;
+    display: block;
+    margin: auto;
+}
+
+
+/* ---------------------
+FIN DIRECTIVES INFOS CONSOMMATEUR & CONFIDENTIALITE
+------------------------ */
+
+
+

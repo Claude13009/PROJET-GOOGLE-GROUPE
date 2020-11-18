@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'product_sansbold';
+    src: url('../fonts/kit-bold/product_sans_bold-webfont.ttf') format('ttf'),
+         url('../fonts/kit-bold/product_sans_bold-webfont.woff2') format('woff2'),
+         url('../fonts/kit-bold/product_sans_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'product_sansregular';
+    src: url('../fonts/kit-regular/product_sans_regular-webfont.woff2') format('woff2'), 
+         url('../fonts/kit-regular/product_sans_regular-webfont.woff2') format('woff2'),
+         url('../fonts/kit-regular/product_sans_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* ---------------------
+DIRECTIVES POUR LE HEADER
+------------------------ */
+header {
+    font-family: 'product_sansregular', sans-serif;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+    border-bottom: #565050 2px solid;
+    background: #FFFFFF;
+}
+header img {
+    width: 220px;
+    height: 60px;
+    padding-left: 10px;
+}
+
+header nav {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+
+}
+
+.barre_recherche {
+    width: 800px;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 14px;
+    width: 770px;
+}
+
+.header_nav a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #565050;
+}
+
+.header_nav a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.2em;
+    line-height: 25px;
+}
+
+
+.header_nav a:link {
+    color : #565050;
+    font-family: 'product_sansregular';
+    font-size: 1.2em;
+    line-height: 24px;
+}
+
+.header_nav a:visited {
+    color : #565050;
+    font-family: 'product_sansregular';
+    font-size: 1.2em;
+    line-height: 24px;
+}
+
+.header_nav a:active {
+    color : #565050;
+    font-family: 'product_sansregular';
+    font-size: 1.2em;
+    line-height: 24px;
+}
+
+/* ---------------------
+FIN DIRECTIVES HEADER
+------------------------ */
+
+/* ---------------------
+Directives pour le FOOTER
+------------------------ */
+footer {
+    padding-top: 16px;
+    border-top: #565050 2px solid;
+    width: 100%;
+    background: #FFFFFF;
+    position: relative;
+    bottom: 0;
+    font-family: 'product_sansregular', sans-serif;
+    color: #565050;
+}
+
+footer nav {
+    margin: auto;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+footer nav a {
+    height: 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #565050;
+}
+
+footer nav a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer nav a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.2em;
+    line-height: 24px;
+}
+
+footer nav a:link {
+    color : #565050;
+    font-family: 'product_sansregular';
+    font-size: 1.2em;
+    line-height: 24px;
+}
+
+footer nav a:visited {
+    color : #565050;
+    font-family: 'product_sansregular';
+    font-size: 1.2em;
+    line-height: 24px;
+}
+
+footer nav a:active {
+    color : #565050;
+    font-family: 'product_sansregular';
+    font-size: 1.2em;
+    line-height: 24px;
+}
+
+
+/* ---------------------
+FIN DIRECTIVES FOOTER
+------------------------ */

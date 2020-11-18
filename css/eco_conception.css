@@ -1,0 +1,234 @@
+/* ---------------------
+DIRECTIVES GENERALES
+------------------------ */
+@font-face {
+    font-family: 'product_sansbold';
+    src: url('./fonts/kit-bold/product_sans_bold-webfont.ttf') format('ttf'),
+         url('./fonts/kit-bold/product_sans_bold-webfont.woff2') format('woff2'),
+         url('./fonts/kit-bold/product_sans_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'product_sansregular';
+    src: url('./fonts/kit-regular/product_sans_regular-webfont.woff2') format('woff2'), 
+         url('./fonts/kit-regular/product_sans_regular-webfont.woff2') format('woff2'),
+         url('./fonts/kit-regular/product_sans_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#main_wrap
+{
+    font-family: 'Product Sans', sans-serif;
+    color: #565050;
+}
+
+strong {
+    color: #565050;
+    font-size: 1.2em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* ---------------------
+DIRECTIVES POUR LE HEADER
+------------------------ */
+header {
+    font-family: 'Product Sans', sans-serif;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+    border-bottom: #565050 2px solid;
+}
+header img {
+    width: 220px;
+    height: 60px;
+    padding-left: 10px;
+}
+
+header nav {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+
+}
+
+.barre_recherche {
+    width: 800px;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 14px;
+    width: 770px;
+}
+
+.header_nav a {
+    
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #565050;
+}
+
+.header_nav a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* ---------------------
+FIN DIRECTIVES HEADER
+------------------------ */
+
+/* ---------------------
+DIRECTIVES ECO CONCEPTION
+------------------------ */
+.page_eco_conception {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.page_eco_conception article {
+    text-align: justify;
+    width: 45%;
+}
+
+#eco_top {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 400px;
+}
+
+/* section */
+section {
+    font-family: 'Product Sans' , sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin: 10%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    color: #565050;
+}
+/* article */
+article {
+    text-align: justify;
+    width: 45%;
+}
+
+
+#eco_top_aside {
+    margin-top: 0;
+    height: 490px;
+    text-align: justify;
+    border: 1px solid #565050;
+    border-radius: 10px;
+    width: 300px;
+}
+
+#eco_top_aside img {
+    border-radius: 10px 10px 0 0;
+}
+
+#eco_top_texte {
+    padding: 15px;
+}
+
+
+#eco_bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start
+}
+#eco_bottom strong {
+    font-size: 1em;
+}
+
+#eco_bottom_aside {
+    margin-top: 0;
+    height: 550px;
+    text-align: justify;
+    border-radius: 10px;
+    width: 300px;
+}
+
+#image_arbre {
+    border-radius: 10px 10px 0 0;
+}
+
+#image_cadre {
+    
+    border-radius: 0 0 10px 10px;
+    position: relative;
+    bottom: 5px;
+}
+
+
+
+
+
+
+
+/* ---------------------
+FIN ECO CONCEPTION
+------------------------ */
+
+/* ---------------------
+Directives pour le FOOTER
+------------------------ */
+footer {
+    padding-top: 16px;
+    border-top: grey 2px solid;
+    width: 100%;
+    background: #FFFFFF;
+    bottom: 0;
+    font-family: 'Product Sans', sans-serif;
+}
+
+footer nav {
+    margin: auto;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+footer nav a {
+    height: 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #565050;
+}
+
+footer nav a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}

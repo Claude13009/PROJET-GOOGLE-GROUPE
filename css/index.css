@@ -1,0 +1,91 @@
+
+/* ---------------------
+DIRECTIVES GENERALES
+------------------------ */
+strong {
+    color: #565050;
+    font-size: 1.2em;
+}
+
+html {
+    height:100%
+}
+    
+body {
+    margin: 0;
+    padding: 0;
+    height: 598px;
+    position: relative;
+    background:  url(../img/planete.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover; 
+    font-family: 'product_sansregular', sans-serif;
+    background-size: cover; 
+}
+
+#main_wrap {
+    height: 100%;
+    font-family: 'product_sansregular', sans-serif;
+    color: #565050;
+}
+
+
+
+/* ---------------------
+Directives pour LE CORPS PRINCIPAL
+------------------------ */
+h1, h2 {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'product_sansregular', sans-serif;
+    color: #FFF;
+    text-shadow: #565050 2px 2px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 4em;
+}
+h2 {
+    
+    font-size: 2.5em;
+}
+
+
+#punchline {
+    display: block;
+    margin: auto;
+    height: 150px;
+    width: 680px;
+    padding: 5px;
+    border-radius: 0 0 30px 30px;
+    background: #565050;
+    opacity: 0.8;
+}
+
+.callforaction {
+    border: 2px solid #565050;
+    width: 260px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(219,68,55,0.8) 0%, rgba(243,179,0,1) 35%, rgba(44,169,108,0.8) 100%);
+    box-shadow: #565050;
+    padding: 8px;
+    position: relative;
+    left: 650px;
+    top: 280px;
+    text-align: center;
+    
+}
+
+.callforaction a {
+    text-decoration: none;
+    color: #165B14;
+    font-size: 1.5em;
+    margin: auto;
+}
+
+.callforaction a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
